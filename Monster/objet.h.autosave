@@ -1,0 +1,33 @@
+#ifndef OBJET_H
+#define OBJET_H
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
+#include <SDL/SDL_ttf.h>
+#include <sstream>
+
+using namespace std;
+
+struct Monster
+{
+    EnumMonster typeMonster;
+    int posx;
+    int posy;
+    int mvt_x;
+    int mvt_y;
+};
+
+void initMonster(Monster &m)
+{
+    m.posx=0;
+    
+}
+
+
+
+
+
+
+#endif // OBJET_H
